@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://chenminghao2008.github.io</id>
     <title>C2020陈铭浩 的个人博客</title>
-    <updated>2020-07-23T13:07:55.660Z</updated>
+    <updated>2020-07-23T13:23:59.448Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://chenminghao2008.github.io"/>
     <link rel="self" href="https://chenminghao2008.github.io/atom.xml"/>
@@ -11,12 +11,12 @@
     <icon>https://chenminghao2008.github.io/favicon.ico</icon>
     <rights>All rights reserved 2020, C2020陈铭浩 的个人博客</rights>
     <entry>
-        <title type="html"><![CDATA[我谔谔]]></title>
+        <title type="html"><![CDATA[github博客开通了！]]></title>
         <id>https://chenminghao2008.github.io/post/wo-e-e/</id>
         <link href="https://chenminghao2008.github.io/post/wo-e-e/">
         </link>
         <updated>2020-07-23T12:06:44.000Z</updated>
-        <content type="html"><![CDATA[<p>我谔谔</p>
+        <content type="html"><![CDATA[<p>奥利给</p>
 ]]></content>
     </entry>
 </feed>
