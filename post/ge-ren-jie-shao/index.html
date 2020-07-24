@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8" >
 
-<title>标签列表 | C2020陈铭浩 的个人博客</title>
+<title>个人介绍 | C2020陈铭浩 的个人博客</title>
 
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
 
@@ -12,13 +12,24 @@
 <link rel="stylesheet" href="https://chenminghao2008.github.io/styles/main.css">
 
 
+  
+    <link rel="stylesheet" href="https://unpkg.com/gitalk/dist/gitalk.css" />
+  
+
+  
+
 
 <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
 
 
 
-    <meta name="description" content="欢迎来到一个菜鸡OIer的个人博客，大家珂以随意吊打他哦！">
+    <meta name="description" content="##个人介绍
+坐标 FJ-XM，准备升初中。
+小升初期末考成绩：语文 99/100，数学 100/100，英语 80/80，总分 279/280，年段第 1 / 260.
+原 6 年 5 班班长。
+真名 CMH（呵呵），年龄 12，是个学神..." />
+    <meta name="keywords" content="" />
   </head>
   <body>
     <div id="app" class="main">
@@ -88,10 +99,43 @@
 
       <div class="main-container">
         <div class="content-container" data-aos="fade-up">
-          <h2 class="tag-list-title">标签列表</h2>
-          <div class="tags-container">
+          <div class="post-detail">
+            <h2 class="post-title">个人介绍</h2>
+            <div class="post-date">2020-07-24</div>
             
+            <div class="post-content" v-pre>
+              <p>##个人介绍</p>
+<p>坐标 FJ-XM，准备升初中。</p>
+<p>小升初期末考成绩：语文 99/100，数学 100/100，英语 80/80，总分 279/280，年段第 1 / 260.</p>
+<p>原 6 年 5 班班长。</p>
+<p>真名 CMH（呵呵），年龄 12，是个学神男孩（校领导都这么说），爱好编程（市一等），架子鼓（5 年级已过 6 级），书法获全<strong>省</strong>一等奖。</p>
+<p>平时在文化课也挺努力的，希望不会辜负未来的自己吧！</p>
+<h4 id="the-end">The End.</h4>
+<p>（仅是对比 sweet_carrot 的炫耀）</p>
+
+            </div>
+            
+            
+              <div class="next-post">
+                <div class="next">下一篇</div>
+                <a href="https://chenminghao2008.github.io/post/wo-e-e/">
+                  <h3 class="post-title">
+                    github博客开通了！
+                  </h3>
+                </a>
+              </div>
+            
+
+            
+              
+                <div id="gitalk-container" data-aos="fade-in"></div>
+              
+
+              
+            
+
           </div>
+
         </div>
       </div>
     </div>
@@ -111,6 +155,29 @@ var app = new Vue({
 </script>
 
 
+
+
+
+  
+    <script src="https://unpkg.com/gitalk/dist/gitalk.min.js"></script>
+    <script>
+
+      var gitalk = new Gitalk({
+        clientID: '',
+        clientSecret: '',
+        repo: '',
+        owner: '',
+        admin: [''],
+        id: (location.pathname).substring(0, 49),      // Ensure uniqueness and length less than 50
+        distractionFreeMode: false  // Facebook-like distraction free mode
+      })
+
+      gitalk.render('gitalk-container')
+
+    </script>
+  
+
+  
 
 
 

@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://chenminghao2008.github.io</id>
     <title>C2020陈铭浩 的个人博客</title>
-    <updated>2020-07-23T13:43:28.643Z</updated>
+    <updated>2020-07-24T09:08:32.710Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://chenminghao2008.github.io"/>
     <link rel="self" href="https://chenminghao2008.github.io/atom.xml"/>
@@ -11,12 +11,28 @@
     <icon>https://chenminghao2008.github.io/favicon.ico</icon>
     <rights>All rights reserved 2020, C2020陈铭浩 的个人博客</rights>
     <entry>
+        <title type="html"><![CDATA[个人介绍]]></title>
+        <id>https://chenminghao2008.github.io/post/ge-ren-jie-shao/</id>
+        <link href="https://chenminghao2008.github.io/post/ge-ren-jie-shao/">
+        </link>
+        <updated>2020-07-24T09:02:33.000Z</updated>
+        <content type="html"><![CDATA[<p>##个人介绍</p>
+<p>坐标 FJ-XM，准备升初中。</p>
+<p>小升初期末考成绩：语文 99/100，数学 100/100，英语 80/80，总分 279/280，年段第 1 / 260.</p>
+<p>原 6 年 5 班班长。</p>
+<p>真名 CMH（呵呵），年龄 12，是个学神男孩（校领导都这么说），爱好编程（市一等），架子鼓（5 年级已过 6 级），书法获全<strong>省</strong>一等奖。</p>
+<p>平时在文化课也挺努力的，希望不会辜负未来的自己吧！</p>
+<h4 id="the-end">The End.</h4>
+<p>（仅是对比 sweet_carrot 的炫耀）</p>
+]]></content>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[github博客开通了！]]></title>
         <id>https://chenminghao2008.github.io/post/wo-e-e/</id>
         <link href="https://chenminghao2008.github.io/post/wo-e-e/">
         </link>
         <updated>2020-07-23T12:06:44.000Z</updated>
-        <content type="html"><![CDATA[<p>奥利给</p>
+        <content type="html"><![CDATA[<p>本人<strong>github</strong>博客开通了！欢迎大家访问和宣传！</p>
 ]]></content>
     </entry>
 </feed>
