@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://chenminghao2008.github.io</id>
     <title>C2020陈铭浩 的个人博客</title>
-    <updated>2020-07-24T13:18:41.941Z</updated>
+    <updated>2020-07-29T06:01:07.151Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://chenminghao2008.github.io"/>
     <link rel="self" href="https://chenminghao2008.github.io/atom.xml"/>
@@ -10,6 +10,24 @@
     <logo>https://chenminghao2008.github.io/images/avatar.png</logo>
     <icon>https://chenminghao2008.github.io/favicon.ico</icon>
     <rights>All rights reserved 2020, C2020陈铭浩 的个人博客</rights>
+    <entry>
+        <title type="html"><![CDATA[如何高效地学习]]></title>
+        <id>https://chenminghao2008.github.io/post/ru-he-gao-xiao-di-xue-xi/</id>
+        <link href="https://chenminghao2008.github.io/post/ru-he-gao-xiao-di-xue-xi/">
+        </link>
+        <updated>2020-07-29T05:42:50.000Z</updated>
+        <content type="html"><![CDATA[<p>本文为一些好的学习方法的归纳。</p>
+<p>在我们的学习生涯，学习压力会越来越大，在一个单位时间内需要完成的工作量也会越来越多。那么，如何高效率，高质量，快速地学习呢？</p>
+<p>首先你得明白，压力大内容多，时间会越来越不够用。如果你要考试，考前要复习，你并没有那么多的时间可以翻阅整本课本并且复习每个板块。这样耗时长，效率低，而且复习了一些没有必要复习的东西。这时候你就需要一个东西——<strong>笔记</strong>。</p>
+<h3 id="笔记">笔记：</h3>
+<p>笔记有何作用呢？<br>
+1.帮助你在必要之时快速掌握课文重点，重要的知识点。<br>
+2.养成高效归纳的习惯，锻炼写字速度。<br>
+3.重阅笔记，快速回忆课堂的内容，触类旁通。<br>
+4.提升学习效率，节省时间。<br>
+5.看到自己漂亮的笔记，是不是很自豪？</p>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[个人介绍]]></title>
         <id>https://chenminghao2008.github.io/post/ge-ren-jie-shao/</id>
