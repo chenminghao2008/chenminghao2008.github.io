@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>https://chenminghao.cr.cx</id>
+    <id>https://chenminghao2008.github.io</id>
     <title>C2020陈铭浩 的个人博客</title>
-    <updated>2021-02-09T08:38:26.230Z</updated>
+    <updated>2021-02-09T08:40:48.044Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
-    <link rel="alternate" href="https://chenminghao.cr.cx"/>
-    <link rel="self" href="https://chenminghao.cr.cx/atom.xml"/>
+    <link rel="alternate" href="https://chenminghao2008.github.io"/>
+    <link rel="self" href="https://chenminghao2008.github.io/atom.xml"/>
     <subtitle>欢迎来到一个菜鸡OIer的个人博客，大家珂以随意吊打他哦！</subtitle>
-    <logo>https://chenminghao.cr.cx/images/avatar.png</logo>
-    <icon>https://chenminghao.cr.cx/favicon.ico</icon>
+    <logo>https://chenminghao2008.github.io/images/avatar.png</logo>
+    <icon>https://chenminghao2008.github.io/favicon.ico</icon>
     <rights>All rights reserved 2021, C2020陈铭浩 的个人博客</rights>
     <entry>
         <title type="html"><![CDATA[如何高效地学习]]></title>
-        <id>https://chenminghao.cr.cx/post/ru-he-gao-xiao-di-xue-xi/</id>
-        <link href="https://chenminghao.cr.cx/post/ru-he-gao-xiao-di-xue-xi/">
+        <id>https://chenminghao2008.github.io/post/ru-he-gao-xiao-di-xue-xi/</id>
+        <link href="https://chenminghao2008.github.io/post/ru-he-gao-xiao-di-xue-xi/">
         </link>
         <updated>2020-07-29T05:42:50.000Z</updated>
         <content type="html"><![CDATA[<p>本文为一些好的学习方法的归纳。</p>
@@ -47,8 +47,8 @@
     </entry>
     <entry>
         <title type="html"><![CDATA[个人介绍]]></title>
-        <id>https://chenminghao.cr.cx/post/ge-ren-jie-shao/</id>
-        <link href="https://chenminghao.cr.cx/post/ge-ren-jie-shao/">
+        <id>https://chenminghao2008.github.io/post/ge-ren-jie-shao/</id>
+        <link href="https://chenminghao2008.github.io/post/ge-ren-jie-shao/">
         </link>
         <updated>2020-07-24T09:02:33.000Z</updated>
         <content type="html"><![CDATA[<p>##个人介绍</p>
@@ -63,8 +63,8 @@
     </entry>
     <entry>
         <title type="html"><![CDATA[github博客开通了！]]></title>
-        <id>https://chenminghao.cr.cx/post/wo-e-e/</id>
-        <link href="https://chenminghao.cr.cx/post/wo-e-e/">
+        <id>https://chenminghao2008.github.io/post/wo-e-e/</id>
+        <link href="https://chenminghao2008.github.io/post/wo-e-e/">
         </link>
         <updated>2020-07-23T12:06:44.000Z</updated>
         <content type="html"><![CDATA[<p>本人<strong>github</strong>博客开通了！欢迎大家访问和宣传！</p>
