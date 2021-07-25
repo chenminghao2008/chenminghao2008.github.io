@@ -2051,7 +2051,9 @@ p > code {
     margin-bottom: 10px;
   }
 }
-body {
+.bg-color .bg-color {
+      background: transparent !important;
+    }body {
       background-color: #eee;
     }.header {
         width: 960px;
@@ -2070,9 +2072,6 @@ body {
     }
     .next-md-body h1, .next-md-body h2 {
       border-bottom-color: #555;
-    }
-    .archive-timeline-box::after, .tag-timeline-wrapper::after {
-      background: #38d9a9fe;
     }h1, h2, h3, h4, h5, h6 {
       color: #555;
     }
@@ -2087,42 +2086,17 @@ body {
     
     .node-title::before {
       background-color: #555;
-    }a {
-      color: #3b5bdb;
     }
-    
-    .next-md-body a, .friends-box a  {
-      color: #3b5bdb;
-      border-bottom: 1px solid #3b5bdb;
-    }a:hover {
-      color: #3b5bdb;
-    }
-    
-    .archive-timeline-box .tag-node:hover::before {
-      background-color: #3b5bdb;
-    }
-    
-    .markdownIt-TOC a:hover {
-      color: #3b5bdb;
-      border-bottom-color: #3b5bdb;
-    }
-
-    .next-md-body a:hover, .friends-box a:hover {
-      color: #3b5bdb;
-      border-bottom-color: #3b5bdb;
-    }.nav-toggle .line {
-      background-color: #38d9a9 !important;
-    }
-      .nav-item a {
-        color:  #7950f2;
-      }.nav-item a:hover {
-        color: #7950f2;
+    .nav-toggle .line {
+      background-color:  !important;
+    }.nav-item a:hover {
+        color: #222;
       }.nav-item-active {
-      background: #38d9a9fe;
+      background: #f9f9f9a8;
     }
 
     .nav-item:hover {
-      background: #38d9a9fe;
+      background: #f9f9f9a8;
       color: rgba(0, 0, 0, 0.98);
     }.site-author-image {
       border-radius: 50%;
@@ -2158,23 +2132,24 @@ body {
       color: #38d9a9;
       border-bottom-color: #38d9a9;
     }.bg-color {
-      background-color: #38d9a9fe;
+      background-color: #ffffffa8;
+    }
+    .gemini .blog-header, .gemini .sidebar-wrapper, .gemini .article-wrapper, .gemini .post, .gemini .page, .gemini .section, .gemini .section-box, .gemini .sidebar-box, .gemini .friends-section {
+      border-radius: 11px;
+    }
+    .pisces .blog-header, .pisces .sidebar-wrapper, .pisces .article-wrapper, .pisces .section, .pisces .sidebar-box, .pisces .friends-section {
+      border-radius: 11px;
     }
     .site-meta {
-      background: #38d9a9 !important;
+      background: #000 !important;
     }
     .head-top-line {
-      background: #38d9a9;
+      background: #000;
     }
     .brand {
-      background: #38d9a9fe;
+      background: #000000a8;
     }
-    .main-title, .brand {
-      color: #7950f2 !important;
-    }
-    .mist .site-title i {
-      background: #7950f2fe;
-    }.box-shadow-wrapper {
+    .box-shadow-wrapper {
       box-shadow: none !important;
     }body {
       cursor: default;
