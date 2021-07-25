@@ -5,18 +5,18 @@
   <meta charset="UTF-8" />
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
-<meta name="keywords" content="">
+<meta name="keywords" content="Gridea静态个人博客">
 <meta name="description" content="欢迎来到一个菜鸡OIer的个人博客，大家珂以随意吊打他哦！">
-<meta name="theme-color" content="">
+<meta name="theme-color" content="#38d9a9">
 <title>C2020陈铭浩 的个人博客</title>
-<link rel="shortcut icon" href="/favicon.ico?v=1627178453569">
-<link rel="stylesheet" href="/media/css/pisces.css">
+<link rel="shortcut icon" href="/favicon.ico?v=1627179031347">
+<link rel="stylesheet" href="/media/css/gemini.css">
 <link rel="stylesheet" href="/media/fonts/font-awesome.css">
 <link
   href="//fonts.googleapis.com/css?family=Monda:300,300italic,400,400italic,700,700italic|Roboto Slab:300,300italic,400,400italic,700,700italic|Rosario:300,300italic,400,400italic,700,700italic|PT Mono:300,300italic,400,400italic,700,700italic&subset=latin,latin-ext"
   rel="stylesheet" type="text/css">
 
-<link href="/media/hljs/styles/github.css"
+<link href="/media/hljs/styles/default.css"
   rel="stylesheet">
 
 <link rel="stylesheet" href="/styles/main.css">
@@ -44,7 +44,7 @@
   <div class="head-top-line"></div>
   <div class="header-box">
     
-<div class="pisces">
+<div class="gemini">
   <header class="header  ">
     <div class="blog-header box-shadow-wrapper bg-color " id="header">
       <div class="nav-toggle" id="nav_toggle">
@@ -63,11 +63,15 @@
           
         </div>
         
+          <p class="subtitle">精于心，简于形</p>
+        
       </div>
       <nav class="site-nav" id="site_nav">
         <ul id="nav_ul">
           
             
+            
+              
             
             <li class="nav-item ">
               
@@ -80,6 +84,8 @@
           
             
             
+              
+            
             <li class="nav-item ">
               
               
@@ -90,6 +96,8 @@
             </li>
           
             
+            
+              
             
             <li class="nav-item ">
               
@@ -102,6 +110,8 @@
           
             
             
+              
+            
             <li class="nav-item ">
               
               
@@ -112,6 +122,22 @@
             </li>
           
           
+            
+              <li class="nav-item ">
+                <a href="/friends/" target="_blank">
+                  
+                    <i class="fa fa-address-book"></i> OIerC2020cmh
+                  
+                </a>
+              </li>
+            
+          
+          
+            <li id="fa_search" class="nav-item">
+              <a href="javascript:void(0);">
+                <i class="fa fa-search"></i> <span class="language" data-lan="search">搜索</span>
+              </a>
+            </li>
           
         </ul>
       </nav>
@@ -144,14 +170,14 @@
   <div class="main-continer">
     
     <div
-      class="section-layout pisces ">
+      class="section-layout gemini ">
       <div class="section-layout-wrapper">
         <div id="sidebarMeta" class="sidebar">
     
 <div class="sidebar-wrapper box-shadow-wrapper bg-color">
   <div class="sidebar-item">
     <img class="site-author-image right-motion" src="/images/avatar.png"/>
-    <p class="site-author-name"></p>
+    <p class="site-author-name">适用 Gemini,Pisces 布局,版权说明需配置</p>
     
   </div>
   <div class="sidebar-item side-item-stat right-motion">
@@ -180,15 +206,13 @@
   
   
 
-  
-
 
 
 </div>
 </div>
 <script>
   let sidebarMeta = document.querySelector('#sidebarMeta');
-  let scheme = '';
+  let scheme = 'gemini';
   let sidebarWrapper = document.querySelector('.sidebar-wrapper');
   if (sidebarMeta && (scheme === 'pisces' || scheme === 'gemini')) {
     document.addEventListener('scroll', function(e) {
@@ -200,10 +224,26 @@
     });
   }
   </script>
-        <div class="section-box pisces box-shadow-wrapper">
+        <div class="section-box gemini box-shadow-wrapper">
           <section class="friends-section bg-color slide-down-in">
             <div class="firends-box">
-              <h1 class="firends-title" itemprop="name headline"></h1>
+              <h1 class="firends-title" itemprop="name headline">OIerC2020cmh</h1>
+              
+              
+              <a href="https://www.luogu.com.cn/user/307603" target="_blank">
+                <div class="firends-item">
+                  <img src="https://cdn.luogu.com.cn/upload/usericon/307603.png" />
+                  <div class="right">
+                    <div class="top">
+                      OIerC2020cmh
+                    </div>
+                    <div class="bottom">
+                      
+                    </div>
+                  </div>
+                </div>
+              </a>
+              
               
             </div>
             <hr>
@@ -268,7 +308,7 @@
   </footer>
   
   
-  <div class="pisces back-to-top" id="back_to_top">
+  <div class="gemini back-to-top" id="back_to_top">
     <i class="fa fa-arrow-up"></i>
     
     <span class="scrollpercent">
@@ -279,11 +319,12 @@
   
   
   
+  <div class="bg-img">
+    <img src="https://bing.ioliu.cn/photo/ThosegharWaterfalls_ZH-CN9371597122" />
+  </div>
   
   
   
-  
-
   
 </div>
 <script>
@@ -413,7 +454,7 @@
   }
 
   // 链接跳转
-  let newWindow = ''
+  let newWindow = 'true'
   if (newWindow === 'true') {
     let links = document.querySelectorAll('.post-body a')
     links.forEach(item => {
@@ -447,6 +488,194 @@
 </script>
   </div>
 </body>
+
+<div class="search-mask" id="search_mask" style="display: none;">
+  <div class="search-box">
+    <div class="search-title">
+      <i class="fa fa-search"></i>
+      <div class="input-box">
+        <input id="search" type="text" class="language" data-lan="search" placeholder="搜索">
+      </div>
+      <i id="close" class="fa fa-times-circle"></i>
+    </div>
+    <div class="stat-box">
+      <span id="stat_count">0</span><span class="language" data-lan="stat">条相关条目，使用了</span><span id="stat_times">0</span><span class="language" data-lan="stat-time">毫秒</span>
+      <hr>
+    </div>
+    <div class="result" id="result">
+      
+      <div class="item">
+        <a class="result-title" style="opacity: 0;" href="https://chenminghao2008.github.io/post/ru-he-gao-xiao-di-xue-xi/"" data-c="
+          &lt;p&gt;本文为一些好的学习方法的归纳。&lt;/p&gt;
+&lt;p&gt;在我们的学习生涯，学习压力会越来越大，在一个单位时间内需要完成的工作量也会越来越多。那么，如何高效率，高质量，快速地学习呢？&lt;/p&gt;
+&lt;p&gt;首先你得明白，压力大内容多，时间会越来越不够用。如果你要考试，考前要复习，你并没有那么多的时间可以翻阅整本课本并且复习每个板块。这样耗时长，效率低，而且复习了一些没有必要复习的东西。这时候你就需要一个东西——&lt;strong&gt;笔记&lt;/strong&gt;。&lt;/p&gt;
+&lt;h3 id=&#34;笔记&#34;&gt;笔记：&lt;/h3&gt;
+&lt;p&gt;笔记有何作用呢？&lt;/p&gt;
+&lt;p&gt;1.帮助你在必要之时快速掌握课文重点，重要的知识点。&lt;/p&gt;
+&lt;p&gt;2.养成高效归纳的习惯，锻炼写字速度。&lt;/p&gt;
+&lt;p&gt;3.重阅笔记，快速回忆课堂的内容，触类旁通。&lt;/p&gt;
+&lt;p&gt;4.提升学习效率，节省时间。&lt;/p&gt;
+&lt;p&gt;5.看到自己漂亮的笔记，是不是很自豪？&lt;/p&gt;
+&lt;p&gt;笔记仅是一个学习的辅助，如果使用错误的学习方法，学习成绩照样上不来。那有哪些高效的学习方法呢？&lt;/p&gt;
+&lt;h3 id=&#34;高效的学习方法&#34;&gt;高效的学习方法：&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;课前预习新知：&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;抽出一点时间，自己略读一遍新课的内容。如果遇到不会的问题，请写下来，并试着解答自己提的问题。课上听讲的时候重点听自己不懂的内容，如果课上没讲，课后私下请教老师。&lt;strong&gt;注意：尽量不要借助教辅材料。&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;课上认真听讲：&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;上课前，三色笔（黑笔，红笔，蓝笔）都要准备齐，一支都不能少。上课认真听讲，根据老师讲的，归纳本课重点知识点，把老师给的内容挑重点记下来。&lt;strong&gt;注意要用三色笔做区分，红笔记重点，蓝笔记次重点或拓展内容，黑笔记其他的。&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;课后认真复习：&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;课后依靠上课时的笔记，加上自己的理解，尝试自己解决课前不懂的内容。与课前解答的相比较，找到自己的缺漏，以后加强练习。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;知识拓展延伸：&lt;/li&gt;
+&lt;/ul&gt;
+">如何高效地学习</a>
+      </div>
+      
+      <div class="item">
+        <a class="result-title" style="opacity: 0;" href="https://chenminghao2008.github.io/post/ge-ren-jie-shao/"" data-c="
+          &lt;p&gt;##个人介绍&lt;/p&gt;
+&lt;p&gt;坐标 FJ-XM，准备升初中。&lt;/p&gt;
+&lt;p&gt;小升初期末考成绩：语文 99/100，数学 100/100，英语 80/80，总分 279/280，年段第 1 / 260.&lt;/p&gt;
+&lt;p&gt;原 6 年 5 班班长。&lt;/p&gt;
+&lt;p&gt;真名 CMH（呵呵），年龄 12，是个学神男孩（校领导都这么说），爱好编程（市一等），架子鼓（5 年级已过 6 级），书法获全&lt;strong&gt;省&lt;/strong&gt;一等奖。&lt;/p&gt;
+&lt;p&gt;平时在文化课也挺努力的，希望不会辜负未来的自己吧！&lt;/p&gt;
+&lt;h4 id=&#34;the-end&#34;&gt;The End.&lt;/h4&gt;
+&lt;p&gt;（仅是对比 sweet_carrot 的炫耀，就很看不惯那种炫耀）&lt;/p&gt;
+">个人介绍</a>
+      </div>
+      
+      <div class="item">
+        <a class="result-title" style="opacity: 0;" href="https://chenminghao2008.github.io/post/wo-e-e/"" data-c="
+          &lt;p&gt;本人&lt;strong&gt;github&lt;/strong&gt;博客开通了！欢迎大家访问和宣传！&lt;/p&gt;
+">github博客开通了！</a>
+      </div>
+      
+    </div>
+    <div class="page">
+      <div id="page_ul"></div>
+    </div>
+  </div>
+</div>
+<script>
+  !function () {
+    let searchMask = document.querySelector('#search_mask');
+    let result = document.querySelector('#result');
+    let items = document.querySelectorAll('.item');
+    let searchBox = document.querySelector('#search');
+    let statCount = document.querySelector('#stat_count');
+    let statTimes = document.querySelector('#stat_times');
+    let pageUl = document.querySelector('#page_ul');
+    let close = document.querySelector('#close');
+    
+    close.addEventListener('click', function() {
+      searchMask.style = 'display: none;'
+    })
+
+    let finds = [];
+    let contents = [];
+    let pageSize = 10;
+    items.forEach(item => {
+      let a = item.querySelector('a');
+      contents.push({
+        title: a.innerText,
+        details: a.dataset.c,
+        link: a.href
+      })
+      item.remove();
+    })
+
+    function insertStr(soure, start, count) {
+      let newStr = soure.substr(start, count);
+      return soure.slice(0, start) + '<em>' + newStr + '</em>' + soure.slice(start + count);
+    }
+
+    pageUl.addEventListener('click', function(event) {
+      let target = event.target;
+      if (target.__proto__ === HTMLSpanElement.prototype) {
+        appendResults(parseInt(target.dataset.i));
+      }
+    })
+
+    function appendResults(index) {
+      let htmlResult = '';
+      let start = index || 0;
+      let end = Math.min(start + pageSize, finds.length);
+      for (let i = start; i < end; i++) {
+        const current = finds[i];
+        let html = current.title;
+        let sum = 0;
+        let positions = current.positions;
+        positions.forEach(position => {
+          html = insertStr(html, position.start + sum, position.count);
+          sum += 9;
+        })
+        htmlResult += `<div class="item"><a class="result-title" href="${current.link}">${html}</a></div>`;
+      }
+      result.innerHTML = htmlResult;
+      pageUl.innerHTML = '';
+      let count = finds.length / pageSize;
+      let lis = '';
+      if (start !== 0) {
+        lis += `<span class="fa fa-angle-left" data-i='${start - 1}'></span>`;
+      }
+      for (let i = 0; i < count; i++) {
+        lis += `<span class='${i === start?'current':''}' data-i='${i}'>${i+1}</span>`;     
+      }
+      if (start+1 < count) {
+        lis += `<span class="fa fa-angle-right" data-i='${start+1}'></span>`;  
+      }
+      pageUl.innerHTML = lis;
+    }
+
+    function search(delay) {
+      let timer = null
+      return function () {
+        clearTimeout(timer)
+        timer = setTimeout(() => {
+          let start = Date.now();
+          let segments = searchBox.value.split(' ').filter(c => c != '');
+          if (segments.length <= 0) {
+            return;
+          }
+          finds = [];
+          let htmlResult = '';
+          contents.forEach(content => {
+            let title = content.title;
+            let positions = [];
+            let find = false;
+            segments.forEach((segment) => {
+              if (content.title.includes(segment)) {
+                find = true;
+                positions.push({
+                  start: content.title.indexOf(segment),
+                  count: segment.length
+                })
+              } else if (content.details.includes(segment)) {
+                find = true;
+              }
+            });
+            if (find) {
+              finds.push({
+                title: content.title,
+                link: content.link,
+                positions
+              });
+            }
+          })
+          appendResults(0);
+          statCount.textContent = finds.length;
+          statTimes.textContent = Date.now() - start;
+        }, delay)
+      }
+    }
+    searchBox.addEventListener('input', search(200));
+  }()
+</script>
 
 <input hidden id="copy" />
 <script>
@@ -617,8 +846,13 @@
 </script>
 
 
+<script src="/media/js/mouse/peace.js"></script>
 
 
+
+
+  <div class="snow-container"></div>
+  <script src="/media/js/bg/snow.js"></script>
 
 
 </html>
