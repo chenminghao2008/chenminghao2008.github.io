@@ -1,15 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://chenminghao2008.github.io</id>
-    <title>C2020陈铭浩 的个人博客</title>
-    <updated>2021-07-25T02:11:17.083Z</updated>
+    <title>OIerC2020cmh&apos;s blog</title>
+    <updated>2021-07-25T02:23:21.778Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://chenminghao2008.github.io"/>
     <link rel="self" href="https://chenminghao2008.github.io/atom.xml"/>
-    <subtitle>欢迎来到一个菜鸡OIer的个人博客，大家珂以随意吊打他哦！</subtitle>
     <logo>https://chenminghao2008.github.io/images/avatar.png</logo>
     <icon>https://chenminghao2008.github.io/favicon.ico</icon>
-    <rights>All rights reserved 2021, C2020陈铭浩 的个人博客</rights>
+    <rights>All rights reserved 2021, OIerC2020cmh&apos;s blog</rights>
     <entry>
         <title type="html"><![CDATA[如何高效地学习]]></title>
         <id>https://chenminghao2008.github.io/post/ru-he-gao-xiao-di-xue-xi/</id>
