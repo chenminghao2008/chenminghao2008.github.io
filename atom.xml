@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>http://www.c-m-h.top</id>
     <title>OIerC2020cmh&apos;s blog</title>
-    <updated>2021-08-04T13:59:33.609Z</updated>
+    <updated>2021-08-04T14:02:46.771Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="http://www.c-m-h.top"/>
     <link rel="self" href="http://www.c-m-h.top/atom.xml"/>
@@ -16,7 +16,7 @@
         <link href="http://www.c-m-h.top/post/blog-guide/">
         </link>
         <updated>2021-08-04T13:57:04.000Z</updated>
-        <content type="html"><![CDATA[<h2 id="textpart-1-认准官方"><span class="katex"><span class="katex-mathml"><math><semantics><mrow><mtext>Part 1 </mtext></mrow><annotation encoding="application/x-tex">\text{Part 1 }</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.68333em;vertical-align:0em;"></span><span class="mord text"><span class="mord">Part 1 </span></span></span></span></span> 认准官方</h2>
+        <content type="html"><![CDATA[<h2 id="textttpart-0-认准官方"><span class="katex"><span class="katex-mathml"><math><semantics><mrow><mtext mathvariant="monospace">Part</mtext><mtext> </mtext><mtext mathvariant="monospace">0</mtext></mrow><annotation encoding="application/x-tex">\texttt{Part 0}</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.61111em;vertical-align:0em;"></span><span class="mord text"><span class="mord texttt">Part 0</span></span></span></span></span> 认准官方</h2>
 <p>官方唯一网址（注意是http，不是https）！！：</p>
 <h1 id="httpwwwc-m-htop">http://www.c-m-h.top</h1>
 <p>欢迎大家多多宣传！</p>
